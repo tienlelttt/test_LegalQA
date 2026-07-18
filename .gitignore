@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.env.*
+.venv
+env/
+venv/
+
+# Testing / Type Hinting
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs & Temp
+*.log
+temp/
+tmp/
+pyright_output.json
+
+# Data & Models
+*.db
+*.sqlite
+*.pt
+*.pth
+*.onnx
+/data/raw/
+/data/processed/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
