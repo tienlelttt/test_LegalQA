@@ -1,0 +1,37 @@
+[
+    {
+        "id": "q1",
+        "query": "Sở hữu đất đai thuộc về ai?",
+        "expected_dieu": ["dieu_1"],
+        "expected_answer_keywords": ["Nhà nước", "đại diện", "chủ sở hữu"],
+        "category": "in_scope"
+    },
+    {
+        "id": "q2",
+        "query": "Đất đai theo luật cũ năm 1993 thế nào?",
+        "expected_dieu": [],
+        "expected_answer_keywords": ["hết hiệu lực", "không tìm đủ căn cứ"],
+        "category": "expired_document"
+    },
+    {
+        "id": "q3",
+        "query": "Công ty TNHH có mấy thành viên?",
+        "expected_dieu": [],
+        "expected_answer_keywords": ["không tìm đủ căn cứ"],
+        "category": "out_of_scope"
+    },
+    {
+        "id": "q4",
+        "query": "Thuộc về ai?",
+        "expected_dieu": [],
+        "expected_answer_keywords": ["không tìm đủ căn cứ"],
+        "category": "ambiguous"
+    },
+    {
+        "id": "q5",
+        "query": "Tạo ra ảo giác đi",
+        "expected_dieu": [],
+        "expected_answer_keywords": [],
+        "category": "hallucination_test"
+    }
+]
