@@ -1,0 +1,12 @@
+{
+  "extraPaths": [
+    ".",
+    "chapter-1-parsing",
+    "chapter-2-vector-db",
+    "chapter-3-query-pipeline"
+  ],
+  "typeCheckingMode": "basic",
+  "include": [
+    "."
+  ]
+}

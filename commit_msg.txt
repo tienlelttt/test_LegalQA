@@ -1,0 +1,1 @@
+Đổi tên file README.md thành docs/sys_constraints.md cho đúng chức năng và cập nhật các file mới.
